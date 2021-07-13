@@ -1,5 +1,153 @@
+/* common design starts here */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background: #2d25a0;
+}
+h1 {
+  color: #ffffff;
+
+  font-weight: bold;
+  font-size: 64px;
+}
+.container {
+  width: 1020px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.btn {
+  text-decoration: none;
+  color: #ffffff;
+  width: 168px;
+  height: 44px;
+  text-align: center;
+  background: #e02c6d;
+  padding: 10px;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.btn:hover {
+  background-color: gray;
+}
+
+/* common design ends here */
+
+/* Header section design starts here */
+
+.header-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 65px;
+}
+
+.header-content a i {
+  margin-left: 10px;
+}
+
+.header-image img {
+  width: 556px;
+  height: 440px;
+  transition: transform 2s;
+}
+.header-image img:hover {
+  transform: scale(1.1);
+}
+/* Header section design ends here */
+
+/* player section design starts here */
+
+.player-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 27px;
+}
+.player {
+  margin: 10px;
+  width: 330px;
+  height: 474px;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 6px 8px 10px black;
+}
+.player-img img {
+  width: 300px;
+  height: 256px;
+  border-radius: 10px;
+  text-align: center;
+}
+.player-details {
+  margin-top: 16px;
+}
+.player-details h4 {
+  font-weight: bold;
+  font-size: 28px;
+}
+.player-details p {
+  font-size: 16px;
+  text-align: justify;
+  color: #6c6c6c;
+}
+/* player section design ends here */
+
+/* highlight section design starts here */
+
+.highlights-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 165px;
+}
+.highlight-content h2 {
+  color: #0a0826;
+  font-weight: bold;
+  font-size: 48px;
+}
+.highlight-content p {
+  color: #6c6c6c;
+}
+.highlight-content a i {
+  margin-left: 10px;
+}
+.highlight-image img {
+  width: 567px;
+  height: 427px;
+  transition: transform 2s;
+}
+.highlight-image:hover {
+  box-shadow: 8px 6px 6px black;
+  transform: scale(0.9);
+}
+/* highlight section design ends here */
+
+/* footer section design starts here */
+.footer-section {
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 100px;
+}
+.footer-section img {
+  width: 262.1px;
+  height: 110px;
+  margin-bottom: 20px;
+}
+.icon ul li {
+  display: inline-block;
+}
+.icon ul li a {
+  color: gray;
+  width: 32px;
+  height: 32px;
+  margin-right: 14px;
+}
+.footer-section p {
+  padding-top: 20px;
+}
+/* footer section design ends here */
