@@ -307,10 +307,6 @@ responsive web design starts here */
     margin: 0 auto;
     margin-top: 40px;
   }
-  .header-image img {
-       width:100%;
-
-   }
 
   .container {
     width: 100%;
@@ -341,9 +337,6 @@ responsive web design starts here */
     font-size: 25px;
   }
 
-  .highlight-image img {
-    width:100%;
-  }
 
   .our-achivement {
     grid-template-columns: 1fr;
