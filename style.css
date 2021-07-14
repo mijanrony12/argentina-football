@@ -160,10 +160,10 @@ h1 {
 .highlight-image img {
   width: 567px;
   height: 427px;
-  transition: transform 2;
+  transition: transform 2s;
 }
 
-.highlight-image:hover {
+.highlight-image img:hover {
   box-shadow: 8px 6px 6px black;
   transform: scale(0.9);
 }
