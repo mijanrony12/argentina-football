@@ -5,23 +5,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Poppins", sans-serif;
 }
+
 header {
   background: #2d25a0;
 }
+
 h1 {
   color: #ffffff;
-
   font-weight: bold;
   font-size: 64px;
 }
+
 .container {
   width: 1020px;
   margin: 0 auto;
   margin-top: 70px;
 }
+
 .btn {
   text-decoration: none;
   color: #ffffff;
@@ -34,6 +38,7 @@ h1 {
   display: inline-block;
   border-radius: 10px;
 }
+
 .btn:hover {
   background-color: gray;
 }
@@ -56,6 +61,7 @@ h1 {
   margin-right: 35px;
   padding-top: 25px;
 }
+
 .nav-menu ul li:hover {
   cursor: pointer;
   color: aqua;
@@ -80,9 +86,11 @@ h1 {
   height: 440px;
   transition: transform 2s;
 }
+
 .header-image img:hover {
   transform: scale(1.1);
 }
+
 /* Header section design ends here */
 
 /* player section design starts here */
@@ -93,6 +101,7 @@ h1 {
   grid-column-gap: 30px;
   grid-row-gap: 27px;
 }
+
 .player {
   margin: 10px;
   width: 330px;
@@ -101,24 +110,29 @@ h1 {
   border-radius: 12px;
   box-shadow: 6px 8px 10px black;
 }
+
 .player-img img {
   width: 300px;
   height: 256px;
   border-radius: 10px;
   text-align: center;
 }
+
 .player-details {
   margin-top: 16px;
 }
+
 .player-details h4 {
   font-weight: bold;
   font-size: 28px;
 }
+
 .player-details p {
   font-size: 16px;
   text-align: justify;
   color: #6c6c6c;
 }
+
 /* player section design ends here */
 
 /* highlight section design starts here */
@@ -128,26 +142,32 @@ h1 {
   justify-content: space-evenly;
   margin-top: 165px;
 }
+
 .highlight-content h2 {
   color: #0a0826;
   font-weight: bold;
   font-size: 48px;
 }
+
 .highlight-content p {
   color: #6c6c6c;
 }
+
 .highlight-content a i {
   margin-left: 10px;
 }
+
 .highlight-image img {
   width: 567px;
   height: 427px;
   transition: transform 2;
 }
+
 .highlight-image:hover {
   box-shadow: 8px 6px 6px black;
   transform: scale(0.9);
 }
+
 /* highlight section design ends here */
 
 /* our achivement section design starts here */
@@ -157,31 +177,38 @@ h1 {
   text-align: center;
   padding: 50px 0px;
 }
+
 .Head-title:hover {
   font-style: italic;
   color: sienna;
 }
+
 .our-achivement {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
+
 .achivement {
   display: flex;
   padding: 10px;
 }
+
 .achivement:hover {
   box-shadow: 6px 6px 10px black;
   border-radius: 15px;
 }
+
 .achivement-img img {
   width: 250px;
   height: 200px;
 }
+
 .achivement-content {
   padding-left: 8px;
   text-align: justify;
 }
+
 /* our achivement section design ends here */
 
 /* about us section design starts here */
@@ -191,36 +218,41 @@ h1 {
   background-color: wheat;
   padding: 40px 0px;
 }
+
 .title {
   text-align: center;
   font-size: 52px;
   font-weight: bold;
 }
+
 hr {
   border: 2px solid slateblue;
   border-radius: 15px;
   width: 200px;
   margin: 0 auto;
 }
+
 .about-us {
   display: flex;
   justify-content: space-evenly;
   padding-top: 100px;
 }
+
 .about-img img {
   width: 300px;
   height: 300px;
   text-align: center;
   border-radius: 50%;
 }
-.about-details {
-}
+
 .about-details h1 {
   color: black;
 }
+
 .about-details p {
   font-size: 16px;
 }
+
 .about-details p::first-letter {
   font-size: 40px;
   font-style: italic;
@@ -229,26 +261,173 @@ hr {
 /* about us section design ends here */
 
 /* footer section design starts here */
+
 .footer-section {
   text-align: center;
   margin-top: 160px;
   margin-bottom: 100px;
 }
+
 .footer-section img {
   width: 262.1px;
   height: 110px;
   margin-bottom: 20px;
 }
+
 .icon ul li {
   display: inline-block;
 }
+
 .icon ul li a {
   color: gray;
   width: 32px;
   height: 32px;
   margin-right: 14px;
 }
+
 .footer-section p {
   padding-top: 20px;
 }
+
 /* footer section design ends here */
+
+/* 
+responsive web design starts here */
+
+/* for mobile */
+
+@media only screen and (max-width: 668px) {
+  .header-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-image {
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .player-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .player {
+    padding-top: 40px;
+    margin: 0 auto;
+  }
+
+  .highlights-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .highlight-content {
+    margin-bottom: 20px;
+  }
+
+  .highlight-content h2 {
+    font-size: 25px;
+  }
+
+  .our-achivement {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .achivement {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .Head-title {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .about-us {
+    flex-direction: column;
+    text-align: justify;
+  }
+
+  .about-img {
+    margin-bottom: 30px;
+  }
+
+  .about-details h1 {
+    font-size: 32px;
+  }
+}
+
+/* for tablet */
+
+@media only screen and (min-width: 669px) and (max-width: 992px) {
+  .header-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-image {
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .player-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .player {
+    padding-top: 40px;
+    margin: 0 auto;
+  }
+
+  .highlights-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .highlight-content {
+    margin-bottom: 20px;
+  }
+
+  .our-achivement {
+    grid-template-columns: 1fr 1fr;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .achivement {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-us {
+    flex-direction: column;
+    text-align: justify;
+  }
+
+  .about-img {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+
+/* 
+responsive web design starts here */
