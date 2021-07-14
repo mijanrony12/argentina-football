@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background: #2d25a0;
+    background: #2d25a0;
 }
 
 h1 {
@@ -21,7 +21,7 @@ h1 {
 }
 
 .container {
-  width: 1020px;
+  width: 1050px;
   margin: 0 auto;
   margin-top: 70px;
 }
