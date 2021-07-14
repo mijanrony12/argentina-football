@@ -307,12 +307,10 @@ responsive web design starts here */
     margin: 0 auto;
     margin-top: 40px;
   }
-    .header-image img {
-    /* width:100%; */
-  /* width: 556px;
-  height: 440px;
-  transition: transform 2s; */
-}
+  .header-image img {
+       width:100%;
+
+   }
 
   .container {
     width: 100%;
