@@ -307,6 +307,12 @@ responsive web design starts here */
     margin: 0 auto;
     margin-top: 40px;
   }
+    .header-image img {
+    /* width:100%; */
+  /* width: 556px;
+  height: 440px;
+  transition: transform 2s; */
+}
 
   .container {
     width: 100%;
@@ -335,6 +341,10 @@ responsive web design starts here */
 
   .highlight-content h2 {
     font-size: 25px;
+  }
+
+  .highlight-image img {
+    width:100%;
   }
 
   .our-achivement {
@@ -376,7 +386,7 @@ responsive web design starts here */
     align-items: center;
   }
 
-  .header-image {
+  .header-image{
     margin: 0 auto;
     margin-top: 40px;
   }
@@ -423,11 +433,12 @@ responsive web design starts here */
     text-align: justify;
   }
 
-  .about-img {
+  .about-img img {
     margin-bottom: 30px;
     text-align: center;
+    
   }
 }
 
 /* 
-responsive web design starts here */
+responsive web design ends here */
