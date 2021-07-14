@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: #2d25a0;
+  background: #2d25a0;
 }
 
 h1 {
@@ -337,7 +337,6 @@ responsive web design starts here */
     font-size: 25px;
   }
 
-
   .our-achivement {
     grid-template-columns: 1fr;
     justify-content: center;
@@ -377,7 +376,7 @@ responsive web design starts here */
     align-items: center;
   }
 
-  .header-image{
+  .header-image {
     margin: 0 auto;
     margin-top: 40px;
   }
@@ -424,12 +423,11 @@ responsive web design starts here */
     text-align: justify;
   }
 
-  .about-img img {
+  .about-img {
     margin-bottom: 30px;
     text-align: center;
-    
   }
 }
 
 /* 
-responsive web design ends here */
+responsive web design starts here */
