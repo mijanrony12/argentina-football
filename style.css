@@ -73,6 +73,7 @@ h1 {
 
 .header-section {
   display: flex;
+
   justify-content: space-around;
   padding: 65px;
 }
@@ -305,7 +306,10 @@ responsive web design starts here */
 
   .header-image {
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 60px;
+  }
+  .header-image img {
+    width: 100%;
   }
 
   .container {
@@ -318,7 +322,7 @@ responsive web design starts here */
   }
 
   .player {
-    padding-top: 40px;
+    margin-top: 100px;
     margin: 0 auto;
   }
 
@@ -360,6 +364,10 @@ responsive web design starts here */
 
   .about-img {
     margin-bottom: 30px;
+  }
+  .about-img img {
+    width: 100%;
+    height: auto;
   }
 
   .about-details h1 {
@@ -425,6 +433,9 @@ responsive web design starts here */
 
   .about-img {
     margin-bottom: 30px;
+    text-align: center;
+  }
+  .about-details {
     text-align: center;
   }
 }
